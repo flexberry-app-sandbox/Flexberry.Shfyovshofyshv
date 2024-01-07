@@ -1,0 +1,55 @@
+﻿{
+  "name": "IISShfyovshofyshvЗаказТапочек",
+  "modelName": "i-i-s-shfyovshofyshv-заказ-тапочек",
+  "className": "ЗаказТапочек",
+  "nameSpace": "IIS.Shfyovshofyshv",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тапочки",
+      "relatedTo": "i-i-s-shfyovshofyshv-тапочки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-shfyovshofyshv-запись",
+      "inverse": "заказТапочек"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказТапочекE",
+      "modelName": "i-i-s-shfyovshofyshv-заказ-тапочек",
+      "attrs": [
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

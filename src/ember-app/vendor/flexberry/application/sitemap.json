@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Shfyovshofyshv",
+  "applicationTitle": "Shfyovshofyshv",
+  "items": [
+    {
+      "link": null,
+      "menuName": "shfyovshofyshv",
+      "caption": "Shfyovshofyshv",
+      "title": "Shfyovshofyshv",
+      "children": [
+        {
+          "link": "i-i-s-shfyovshofyshv-пациент-l",
+          "menuName": null,
+          "caption": "Пациент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-тапочки-l",
+          "menuName": null,
+          "caption": "Тапочки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-адрес-l",
+          "menuName": null,
+          "caption": "Адрес",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-сланцы-l",
+          "menuName": null,
+          "caption": "Сланцы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-категория-l",
+          "menuName": null,
+          "caption": "Категория",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-shfyovshofyshv-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

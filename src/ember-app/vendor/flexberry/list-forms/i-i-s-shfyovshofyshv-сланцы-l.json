@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-shfyovshofyshv-сланцы-e",
+  "editForm": "i-i-s-shfyovshofyshv-сланцы-e",
+  "external": false,
+  "caption": "Сланцы",
+  "name": "IISShfyovshofyshvСланцыL",
+  "className": "СланцыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-сланцы",
+      "modelProjection": "СланцыL"
+    }
+  ]
+}

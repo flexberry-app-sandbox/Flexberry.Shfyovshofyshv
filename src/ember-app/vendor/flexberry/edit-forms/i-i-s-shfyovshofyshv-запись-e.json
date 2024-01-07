@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Пациент",
+      "projection": "ПациентL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Адрес",
+      "projection": "АдресL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Запись",
+  "name": "IISShfyovshofyshvЗаписьE",
+  "className": "ЗаписьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-запись",
+      "modelProjection": "ЗаписьE"
+    }
+  ]
+}

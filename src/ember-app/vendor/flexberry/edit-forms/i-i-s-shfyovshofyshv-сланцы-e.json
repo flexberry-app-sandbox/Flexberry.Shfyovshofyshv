@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сланцы",
+  "name": "IISShfyovshofyshvСланцыE",
+  "className": "СланцыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-сланцы",
+      "modelProjection": "СланцыE"
+    }
+  ]
+}

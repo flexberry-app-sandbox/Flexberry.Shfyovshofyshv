@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Shfyovshofyshv.model.Pacient</class>
+        <class>Shfyovshofyshv.model.XarTapochek</class>
+        <class>Shfyovshofyshv.model.ZakazTapochek</class>
+        <class>Shfyovshofyshv.model.Tapochki</class>
+        <class>Shfyovshofyshv.model.Adres</class>
+        <class>Shfyovshofyshv.model.Zapis</class>
+        <class>Shfyovshofyshv.model.Slancy</class>
+        <class>Shfyovshofyshv.model.Sotrudnik</class>
+        <class>Shfyovshofyshv.model.Kategoriya</class>
+        <class>Shfyovshofyshv.model.Dolzhnost</class>
+        <class>Shfyovshofyshv.model.ZakazSlancev</class>
+        <class>Shfyovshofyshv.model.XarSlancev</class>
+        <class>Shfyovshofyshv.model.FlexberryAdvLimit</class>
+        <class>Shfyovshofyshv.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Shfyovshofyshv.model.NewPlatformFlexberryServicesLock</class>
+        <class>Shfyovshofyshv.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

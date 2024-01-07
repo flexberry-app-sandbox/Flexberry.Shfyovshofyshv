@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-shfyovshofyshv-пациент-e",
+  "editForm": "i-i-s-shfyovshofyshv-пациент-e",
+  "external": false,
+  "caption": "Пациент",
+  "name": "IISShfyovshofyshvПациентL",
+  "className": "ПациентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-пациент",
+      "modelProjection": "ПациентL"
+    }
+  ]
+}

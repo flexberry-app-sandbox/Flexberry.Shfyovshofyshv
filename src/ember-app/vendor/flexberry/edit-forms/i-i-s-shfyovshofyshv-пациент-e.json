@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Пациент",
+  "name": "IISShfyovshofyshvПациентE",
+  "className": "ПациентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-пациент",
+      "modelProjection": "ПациентE"
+    }
+  ]
+}

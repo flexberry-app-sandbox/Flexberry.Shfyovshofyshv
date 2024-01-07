@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Адрес",
+  "name": "IISShfyovshofyshvАдресE",
+  "className": "АдресE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-адрес",
+      "modelProjection": "АдресE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-shfyovshofyshv-тапочки-e",
+  "editForm": "i-i-s-shfyovshofyshv-тапочки-e",
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISShfyovshofyshvТапочкиL",
+  "className": "ТапочкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-тапочки",
+      "modelProjection": "ТапочкиL"
+    }
+  ]
+}

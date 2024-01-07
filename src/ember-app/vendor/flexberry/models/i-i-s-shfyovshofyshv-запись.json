@@ -1,0 +1,414 @@
+﻿{
+  "name": "IISShfyovshofyshvЗапись",
+  "modelName": "i-i-s-shfyovshofyshv-запись",
+  "className": "Запись",
+  "nameSpace": "IIS.Shfyovshofyshv",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "время",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодЗаписи",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типОплаты",
+      "type": "i-i-s-shfyovshofyshv-тип-оплаты",
+      "flexberryType": "ТипОплаты",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "адрес",
+      "relatedTo": "i-i-s-shfyovshofyshv-адрес",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пациент",
+      "relatedTo": "i-i-s-shfyovshofyshv-пациент",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-shfyovshofyshv-сотрудник",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "заказТапочек",
+      "relatedTo": "i-i-s-shfyovshofyshv-заказ-тапочек",
+      "inverse": "запись"
+    },
+    {
+      "name": "заказСланцев",
+      "relatedTo": "i-i-s-shfyovshofyshv-заказ-сланцев",
+      "inverse": "запись"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗаказыE",
+      "modelName": "i-i-s-shfyovshofyshv-запись",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ЗаказТапочекE",
+          "caption": "Заказ тапочек",
+          "name": "заказТапочек",
+          "relatedTo": "i-i-s-shfyovshofyshv-заказ-тапочек",
+          "inverse": null
+        },
+        {
+          "projectionName": "ЗаказСланцевE",
+          "caption": "Заказ сланцев",
+          "name": "заказСланцев",
+          "relatedTo": "i-i-s-shfyovshofyshv-заказ-сланцев",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаказыL",
+      "modelName": "i-i-s-shfyovshofyshv-запись",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаписьE",
+      "modelName": "i-i-s-shfyovshofyshv-запись",
+      "attrs": [
+        {
+          "name": "кодЗаписи",
+          "caption": "Код записи",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Пациент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Пациент",
+          "name": "пациент",
+          "relatedTo": "i-i-s-shfyovshofyshv-пациент",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-shfyovshofyshv-сотрудник",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Город",
+          "lookupValueField": "город",
+          "relationName": "Адрес",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "город",
+              "caption": "Город",
+              "hidden": true,
+              "index": 11
+            }
+          ],
+          "index": 10,
+          "type": "standard",
+          "caption": "Адрес",
+          "name": "адрес",
+          "relatedTo": "i-i-s-shfyovshofyshv-адрес",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ЗаказТапочекE",
+          "caption": "Заказ тапочек",
+          "name": "заказТапочек",
+          "relatedTo": "i-i-s-shfyovshofyshv-заказ-тапочек",
+          "inverse": null
+        },
+        {
+          "projectionName": "ЗаказСланцевE",
+          "caption": "Заказ сланцев",
+          "name": "заказСланцев",
+          "relatedTo": "i-i-s-shfyovshofyshv-заказ-сланцев",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаписьL",
+      "modelName": "i-i-s-shfyovshofyshv-запись",
+      "attrs": [
+        {
+          "name": "кодЗаписи",
+          "caption": "Код записи",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Пациент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "пациент",
+          "relatedTo": "i-i-s-shfyovshofyshv-пациент",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 7
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-shfyovshofyshv-сотрудник",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Адрес",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "город",
+              "caption": "Город",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Город",
+          "name": "адрес",
+          "relatedTo": "i-i-s-shfyovshofyshv-адрес",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

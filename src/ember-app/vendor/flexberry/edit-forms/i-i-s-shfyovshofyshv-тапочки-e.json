@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISShfyovshofyshvТапочкиE",
+  "className": "ТапочкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shfyovshofyshv-тапочки",
+      "modelProjection": "ТапочкиE"
+    }
+  ]
+}

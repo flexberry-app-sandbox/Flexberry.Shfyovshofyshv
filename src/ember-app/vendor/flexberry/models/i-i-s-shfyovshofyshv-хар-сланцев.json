@@ -1,0 +1,70 @@
+﻿{
+  "name": "IISShfyovshofyshvХарСланцев",
+  "modelName": "i-i-s-shfyovshofyshv-хар-сланцев",
+  "className": "ХарСланцев",
+  "nameSpace": "IIS.Shfyovshofyshv",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "размер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "категория",
+      "relatedTo": "i-i-s-shfyovshofyshv-категория",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сланцы",
+      "relatedTo": "i-i-s-shfyovshofyshv-сланцы",
+      "inverse": "харСланцев"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ХарСланцевE",
+      "modelName": "i-i-s-shfyovshofyshv-хар-сланцев",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "размер",
+          "caption": "Размер",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

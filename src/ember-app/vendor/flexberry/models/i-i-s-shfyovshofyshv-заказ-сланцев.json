@@ -1,0 +1,55 @@
+﻿{
+  "name": "IISShfyovshofyshvЗаказСланцев",
+  "modelName": "i-i-s-shfyovshofyshv-заказ-сланцев",
+  "className": "ЗаказСланцев",
+  "nameSpace": "IIS.Shfyovshofyshv",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сланцы",
+      "relatedTo": "i-i-s-shfyovshofyshv-сланцы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-shfyovshofyshv-запись",
+      "inverse": "заказСланцев"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказСланцевE",
+      "modelName": "i-i-s-shfyovshofyshv-заказ-сланцев",
+      "attrs": [
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
