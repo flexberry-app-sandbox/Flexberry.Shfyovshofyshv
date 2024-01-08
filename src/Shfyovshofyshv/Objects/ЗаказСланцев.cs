@@ -34,8 +34,6 @@ namespace IIS.Shfyovshofyshv
     public class ЗаказСланцев : ICSSoft.STORMNET.DataObject
     {
         
-        private string fКомментарий;
-        
         private IIS.Shfyovshofyshv.Сланцы fСланцы;
         
         private IIS.Shfyovshofyshv.Запись fЗапись;
@@ -44,38 +42,6 @@ namespace IIS.Shfyovshofyshv
 
         // *** End programmer edit section *** (ЗаказСланцев CustomMembers)
 
-        
-        /// <summary>
-        /// Комментарий.
-        /// </summary>
-        // *** Start programmer edit section *** (ЗаказСланцев.Комментарий CustomAttributes)
-
-        // *** End programmer edit section *** (ЗаказСланцев.Комментарий CustomAttributes)
-        [StrLen(255)]
-        public virtual string Комментарий
-        {
-            get
-            {
-                // *** Start programmer edit section *** (ЗаказСланцев.Комментарий Get start)
-
-                // *** End programmer edit section *** (ЗаказСланцев.Комментарий Get start)
-                string result = this.fКомментарий;
-                // *** Start programmer edit section *** (ЗаказСланцев.Комментарий Get end)
-
-                // *** End programmer edit section *** (ЗаказСланцев.Комментарий Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (ЗаказСланцев.Комментарий Set start)
-
-                // *** End programmer edit section *** (ЗаказСланцев.Комментарий Set start)
-                this.fКомментарий = value;
-                // *** Start programmer edit section *** (ЗаказСланцев.Комментарий Set end)
-
-                // *** End programmer edit section *** (ЗаказСланцев.Комментарий Set end)
-            }
-        }
         
         /// <summary>
         /// Заказ сланцев.

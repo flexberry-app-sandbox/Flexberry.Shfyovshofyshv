@@ -24,7 +24,6 @@ CREATE TABLE ХарТапочек (
 
 CREATE TABLE ЗаказТапочек (
  primaryKey UUID NOT NULL,
- Комментарий VARCHAR(255) NULL,
  Тапочки UUID NOT NULL,
  Запись UUID NOT NULL,
  PRIMARY KEY (primaryKey));
@@ -98,7 +97,6 @@ CREATE TABLE Должность (
 
 CREATE TABLE ЗаказСланцев (
  primaryKey UUID NOT NULL,
- Комментарий VARCHAR(255) NULL,
  Сланцы UUID NOT NULL,
  Запись UUID NOT NULL,
  PRIMARY KEY (primaryKey));

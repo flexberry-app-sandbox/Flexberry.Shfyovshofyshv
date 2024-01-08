@@ -43,8 +43,6 @@ CREATE TABLE "ЗаказТапочек"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Комментарий" NVARCHAR2(255) NULL,
-
 	"Тапочки" RAW(16) NOT NULL,
 
 	"Запись" RAW(16) NOT NULL,
@@ -182,8 +180,6 @@ CREATE TABLE "ЗаказСланцев"
 (
 
 	"primaryKey" RAW(16) NOT NULL,
-
-	"Комментарий" NVARCHAR2(255) NULL,
 
 	"Сланцы" RAW(16) NOT NULL,
 

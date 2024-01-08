@@ -5,17 +5,7 @@
   "nameSpace": "IIS.Shfyovshofyshv",
   "parentModelName": null,
   "parentClassName": null,
-  "attrs": [
-    {
-      "name": "комментарий",
-      "type": "string",
-      "flexberryType": "string",
-      "notNull": false,
-      "defaultValue": "",
-      "stored": true,
-      "ordered": false
-    }
-  ],
+  "attrs": [],
   "belongsTo": [
     {
       "polymorphic": false,
@@ -37,14 +27,7 @@
     {
       "name": "ЗаказСланцевE",
       "modelName": "i-i-s-shfyovshofyshv-заказ-сланцев",
-      "attrs": [
-        {
-          "name": "комментарий",
-          "caption": "Комментарий",
-          "hidden": false,
-          "index": 0
-        }
-      ],
+      "attrs": [],
       "belongsTo": [],
       "hasMany": []
     }

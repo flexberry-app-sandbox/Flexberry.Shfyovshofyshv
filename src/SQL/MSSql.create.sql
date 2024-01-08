@@ -38,8 +38,6 @@ CREATE TABLE [ЗаказТапочек] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Комментарий] VARCHAR(255)  NULL,
-
 	 [Тапочки] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Запись] UNIQUEIDENTIFIER  NOT NULL,
@@ -161,8 +159,6 @@ CREATE TABLE [Должность] (
 CREATE TABLE [ЗаказСланцев] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
-
-	 [Комментарий] VARCHAR(255)  NULL,
 
 	 [Сланцы] UNIQUEIDENTIFIER  NOT NULL,
 

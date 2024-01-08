@@ -34,8 +34,6 @@ namespace IIS.Shfyovshofyshv
     public class ЗаказТапочек : ICSSoft.STORMNET.DataObject
     {
         
-        private string fКомментарий;
-        
         private IIS.Shfyovshofyshv.Тапочки fТапочки;
         
         private IIS.Shfyovshofyshv.Запись fЗапись;
@@ -44,38 +42,6 @@ namespace IIS.Shfyovshofyshv
 
         // *** End programmer edit section *** (ЗаказТапочек CustomMembers)
 
-        
-        /// <summary>
-        /// Комментарий.
-        /// </summary>
-        // *** Start programmer edit section *** (ЗаказТапочек.Комментарий CustomAttributes)
-
-        // *** End programmer edit section *** (ЗаказТапочек.Комментарий CustomAttributes)
-        [StrLen(255)]
-        public virtual string Комментарий
-        {
-            get
-            {
-                // *** Start programmer edit section *** (ЗаказТапочек.Комментарий Get start)
-
-                // *** End programmer edit section *** (ЗаказТапочек.Комментарий Get start)
-                string result = this.fКомментарий;
-                // *** Start programmer edit section *** (ЗаказТапочек.Комментарий Get end)
-
-                // *** End programmer edit section *** (ЗаказТапочек.Комментарий Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (ЗаказТапочек.Комментарий Set start)
-
-                // *** End programmer edit section *** (ЗаказТапочек.Комментарий Set start)
-                this.fКомментарий = value;
-                // *** Start programmer edit section *** (ЗаказТапочек.Комментарий Set end)
-
-                // *** End programmer edit section *** (ЗаказТапочек.Комментарий Set end)
-            }
-        }
         
         /// <summary>
         /// Заказ тапочек.

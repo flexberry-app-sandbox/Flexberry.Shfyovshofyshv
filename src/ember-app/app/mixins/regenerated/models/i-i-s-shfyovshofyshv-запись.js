@@ -102,10 +102,10 @@ export let defineProjections = function (modelClass) {
     комментарий: attr('Комментарий', { index: 2 }),
     сумма: attr('Сумма', { index: 3 }),
     заказТапочек: hasMany('i-i-s-shfyovshofyshv-заказ-тапочек', 'Заказ тапочек', {
-      комментарий: attr('Комментарий', { index: 0 })
+      
     }),
     заказСланцев: hasMany('i-i-s-shfyovshofyshv-заказ-сланцев', 'Заказ сланцев', {
-      комментарий: attr('Комментарий', { index: 0 })
+      
     })
   });
 
@@ -133,10 +133,10 @@ export let defineProjections = function (modelClass) {
       город: attr('Город', { index: 11, hidden: true })
     }, { index: 10, displayMemberPath: 'город' }),
     заказТапочек: hasMany('i-i-s-shfyovshofyshv-заказ-тапочек', 'Заказ тапочек', {
-      комментарий: attr('Комментарий', { index: 0 })
+      
     }),
     заказСланцев: hasMany('i-i-s-shfyovshofyshv-заказ-сланцев', 'Заказ сланцев', {
-      комментарий: attr('Комментарий', { index: 0 })
+      
     })
   });
 
